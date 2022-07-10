@@ -1,8 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using UnityEditor;
 using UnityEngine;
+
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 namespace Source
 {
@@ -11,6 +13,7 @@ namespace Source
         public int Id;
         public List<SkillSlotView> ConnectedSlots = new List<SkillSlotView>();
 
+#if UNITY_EDITOR
         // Just to simplify connections creation
         private void OnValidate()
         {
@@ -33,5 +36,6 @@ namespace Source
             foreach (var connectedSlot in ConnectedSlots)
                 Gizmos.DrawLine(transform.position, connectedSlot.transform.position);
         }
+#endif
     }
 }
