@@ -1,0 +1,19 @@
+{
+    "name": "Kefir.Test.Runtime",
+    "rootNamespace": "Kefir.Test",
+    "references": [
+        "Unity.TextMeshPro",
+        "LeanGUI",
+        "CW.Common",
+        "LeanGUIShapes"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

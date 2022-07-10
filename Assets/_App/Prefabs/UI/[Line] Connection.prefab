@@ -188,6 +188,7 @@ GameObject:
   - component: {fileID: 6299732722911931435}
   - component: {fileID: 5823694161354065513}
   - component: {fileID: 3961377136740102596}
+  - component: {fileID: 9197181552245684199}
   m_Layer: 5
   m_Name: '[Line] Connection'
   m_TagString: Untagged
@@ -288,3 +289,17 @@ MonoBehaviour:
   onChangedState:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &9197181552245684199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8574848629362047375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a8f180295fe4e098e7f15d57ca2ddc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Line: {fileID: 6299732722911931435}
+  Switch: {fileID: 3961377136740102596}
